@@ -1,150 +1,4 @@
-
-#-----------------[ IMPORT-MODULE ]-------------------#
-
-def modules():
-
-	print("\033[1;37m [\u001b[36m•\033[1;37m] CHECKING FOR UPDATES \033[1;37m")
-
-	os.system('pkg update -y && pkg upgrade -y')
-
-	os.system('clear')
-
-	try: 
-
-		import rich
-
-	except ModuleNotFoundError:
-
-		print("\033[1;37m [\u001b[36m•\033[1;37m] RICH IS BEING INSTALLED \033[1;37m")
-
-		os.system('pip install rich --quiet')
-
-		print("\033[1;37m [\u001b[36m>>\033[1;37m] RICH HAS BEEN INSTALLED \033[1;37m")
-
-	except:exit()
-
-	try:
-
-		import bs4
-
-	except ModuleNotFoundError:
-
-		print("\033[1;37m [\u001b[36m•\033[1;37m] BS4 IS BEING INSTALLED \033[1;37m")
-
-		os.system('pip install bs4 --quiet')
-
-		print("\033[1;37m [\u001b[36m>>\033[1;37m] BS4 HAS BEEN INSTALLED \033[1;37m")
-
-	except:exit()
-
-	try:
-
-		import requests
-
-	except ModuleNotFoundError:
-
-		print("\033[1;37m [\u001b[36m•\033[1;37m] REQUESTS IS BEING INSTALLED \033[1;37m")
-
-		os.system('pip install requests --quiet')
-
-		print("\033[1;37m [\u001b[36m>>\033[1;37m] REQUESTS HAS BEEN INSTALLED \033[1;37m")
-
-	except:exit()
-
-	exit()
-
-try:
-
-	import requests,bs4,json,os,sys,random,datetime,time,re,multiprocessing,socket
-
-	from bs4 import BeautifulSoup as bs
-
-	from bs4 import BeautifulSoup
-
-	import urllib3,rich,base64
-
-	from rich.table import Table as me
-
-	from rich.console import Console as sol
-
-	from bs4 import BeautifulSoup as sop
-
-	from concurrent.futures import ThreadPoolExecutor as tred
-
-	from rich.console import Group as gp
-
-	from rich.panel import Panel as nel
-
-	from rich import print as cetak
-
-	from rich.markdown import Markdown as mark
-
-	from rich.columns import Columns as col
-
-	from rich import print as prints
-
-	from rich import pretty
-
-	from rich.text import Text as tekz
-
-	from time import localtime as lt
-
-	pretty.install()
-
-	CON=sol()
-
-except ModuleNotFoundError:
-
-	modules()
-
-#------------------[ GLOBAL VARIABLES ]-------------------#
-
-ugen2=[]
-
-ugen=[]
-
-cokbrut=[]
-
-ses=requests.Session()
-
-princp=[]
-
-#------------------[ PROXY ]-------------------#
-
-try:
-
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
-
-	open('.prox.txt','w').write(prox)
-
-except Exception as e:
-
-	pass
-
-prox=open('.prox.txt','r').read().splitlines()
-
-#------------------[ USER-AGENT ]-------------------#
-
-ugen2=[]
-
-ugen=[]
-
-cokbrut=[]
-
-ses=requests.Session()
-
-princp=[]
-
-try:
-
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
-
-	open('.prox.txt','w').write(prox)
-
-except Exception as e:
-
-	pass
-
+pwv.append(firstlast)
 prox=open('.prox.txt','r').read().splitlines()
 
 for xd in range(10000):
@@ -1292,15 +1146,7 @@ def passwrd():
 				else:
 
 					pwv.append(nmf)
-					
-                    pwv.append(firstlast)
-                    
-                    pwv.append(first last)
-                    
-                    pwv.append(lastfirst)
-                    
-                    pwv.append(last first)
-
+			
 					pwv.append(frs+'@@')
 
 					pwv.append(frs+'123')
@@ -1339,13 +1185,7 @@ def passwrd():
 					
 					pwv.append(firstlast)
                     
-                    pwv.append(first last)
-                    
-                    pwv.append(lastfirst)
-                    
-                    pwv.append(last first)
-
-					pwv.append(frs+'@@')
+                                 	pwv.append(frs+'@@')
 
 					pwv.append(frs+'123')
 
